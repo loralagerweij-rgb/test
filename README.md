@@ -96,3 +96,21 @@ Use that specific python version to create a new virtualenv with
 ```
 python3.9 -m venv ~/venv
 ```
+
+## Install the WSL and Visual Studio Code WSL plugin
+
+Open Windows Terminal
+Type:
+```
+wsl --install
+```
+
+(and reboot)
+
+In Visual studio code go to the Extensions tab (Ctrl-Shift-X), search for `WSL` and install the official WSL plugin from Microsoft.
+
+Then in a Ubuntu WSL terminal session, go to the project directory and type:
+
+```
+code .
+```
